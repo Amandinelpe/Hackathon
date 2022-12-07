@@ -3,7 +3,6 @@ import "../Styles/Settings.css";
 import "../Styles/Voyage3.css";
 import Saturne from "../assets/Saturne.mp4";
 import logo from "../assets/Logo.png";
-import Zoom from "react-reveal/Zoom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -28,7 +27,6 @@ const Voyage3 = () => {
         <video src={Saturne} autoPlay loop muted />
       </div>
       <div className="texte3">
-        <Zoom>
           <h3>Description</h3>
           <p>
             Saturn is the sixth planet in the Solar System in order of distance
@@ -36,19 +34,16 @@ const Voyage3 = () => {
             which is like it a gas giant planet. Orbiting on average at about
             1.4 billion kilometers from the Sun{" "}
           </p>
-        </Zoom>
         <img src="" alt="" />
       </div>
       <div className="border"></div>
       <div className="activity3">
-        <Zoom>
           <h3>Activities</h3>
           <p>
             Looking for a really cool spot for your team building ? This trip is
             for you. All-inclusive business trip to get the best work-leisure
             balance with your team.
           </p>
-        </Zoom>
         <button onClick={notify}>Book Now</button>
         <ToastContainer
           position="top-center"

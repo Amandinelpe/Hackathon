@@ -3,7 +3,6 @@ import "../Styles/Settings.css";
 import "../Styles/Voyage2.css";
 import Moon from "../assets/Lune.mp4";
 import logo from "../assets/Logo.png";
-import Zoom from "react-reveal/Zoom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -28,7 +27,6 @@ const Voyage2 = () => {
         <video src={Moon} autoPlay loop muted />
       </div>
       <div className="texte2">
-        <Zoom>
           <h3>Description</h3>
           <p>
             The Moon, or Earth Ib, is the only permanent natural satellite of
@@ -36,12 +34,10 @@ const Voyage2 = () => {
             Solar System, and the largest of the planetary satellites relative
             to the size of the planet around which it orbits.
           </p>
-        </Zoom>
         <img src="" alt="" />
       </div>
       <div className="border"></div>
       <div className="activity2">
-        <Zoom>
           <h3>Activities</h3>
           <p>
             Spend your most memorable day on a memorable place. The priest of
@@ -49,7 +45,6 @@ const Voyage2 = () => {
             A photographer is enclosed in this trip so you will come back down
             to Earth with every memories with you.
           </p>
-        </Zoom>
         <button onClick={notify}>Book Now</button>
         <ToastContainer
           position="top-center"
