@@ -1,0 +1,64 @@
+.page3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  scroll-snap-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-image: url(./img/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page3 h1 {
+  color: white;
+}
+.page3 h2 {
+  font-size: 3rem;
+}
+
+.page3 .horizontal-border {
+  border-bottom: 2px solid white;
+  width: 35vw;
+  margin-left: 14vw;
+  margin-top: 2vh;
+}
+
+.planet3 video {
+  width: 40vw;
+  height: 20%;
+  border-radius: 20px;
+  margin-left: 3vw;
+  margin-top: 8vw;
+}
+
+.texte3 {
+  margin: 10vh;
+  padding-top: 15vh;
+}
+
+.texte3 h3 {
+  margin-bottom: 4vh;
+  font-size: 1.3rem;
+}
+
+.texte3 ul {
+  margin-top: 5vh;
+}
+
+.activity3 {
+  margin: 10vh;
+  padding-top: 15vh;
+}
+
+.activity3 h3 {
+  margin-bottom: 4vh;
+  font-size: 1.3rem;
+}
+
+.activity3 button {
+  margin-top: 8vh;
+  color: black;
+  font-size: 12px;
+}

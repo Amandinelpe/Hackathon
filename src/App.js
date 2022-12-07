@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./Pages/Home";
+import Voyage1 from "./Pages/Voyage1";
+import Voyage2 from "./Pages/Voyage2";
+import Voyage3 from "./Pages/Voyage3";
+import Transport from "./Transport/Transport";
+import Voyage4 from "./Pages/Voyage4";
+import "./Styles/Settings.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Home />
+      <Voyage1 />
+      <Voyage2 />
+      <Voyage3 />
+      <Voyage4 />
+      <Transport />
+    </>
   );
-}
+};
 
 export default App;

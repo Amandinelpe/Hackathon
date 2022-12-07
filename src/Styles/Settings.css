@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-snap-type: y mandatory;
+  color: aliceblue;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 3px;
+  font-family: "Bellefair";
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.border {
+  margin-top: 30vh;
+  border: 1px solid white;
+  height: 40vh;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 2vw;
+}
+
+.logo {
+  position: absolute;
+  display: block;
+  right: 2px;
+  width: 10vw;
+}
+
+.logo-transport {
+  display: flex;
+  align-items: flex-start;
+}
