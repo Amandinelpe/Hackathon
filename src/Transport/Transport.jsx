@@ -3,7 +3,6 @@ import "../Styles/Settings.css";
 import "../Styles/Transport.css";
 import data from "./data.js";
 import logo from "../assets/Logo.png";
-import Zoom from "react-reveal/Zoom";
 
 const Transport = () => {
   const [selectedTechnology, setSelectedTechnology] = useState(
@@ -22,9 +21,7 @@ const Transport = () => {
       <div className="page-transport">
         <div className="content">
           <h5 className="title">
-            <Zoom>
               <span>05</span> SPACE LAUNCH 101
-            </Zoom>
           </h5>
           <div className="transport-navigation">
             <nav>
@@ -43,7 +40,6 @@ const Transport = () => {
                 ))}
               </ul>
             </nav>
-            <Zoom>
               <div className="text-container">
                 <div className="navigation-item-title">
                   <h3>{technologyInfo.name}</h3>
@@ -52,7 +48,6 @@ const Transport = () => {
                   <p className="body-text">{technologyInfo.description}</p>
                 </div>
               </div>
-            </Zoom>
             <img
               className="technology-image"
               src={technologyInfo.images.portrait}
