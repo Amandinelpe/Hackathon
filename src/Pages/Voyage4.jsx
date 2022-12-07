@@ -20,7 +20,7 @@ const Voyage4 = () => {
     });
   return (
     <div className="page4">
-      <img className="logo" src={logo} />
+      <img className="logo" src={logo} alt="logo"/>
       <div className="planet4">
         <h2> Lava Land </h2>
         <div className="horizontal-border"></div>

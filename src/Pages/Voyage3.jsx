@@ -20,7 +20,7 @@ const Voyage3 = () => {
     });
   return (
     <div className="page3">
-      <img className="logo" src={logo} />
+      <img className="logo" src={logo} alt="logo"/>
       <div className="planet3">
         <h2>Business trip to Saturn</h2>
         <div className="horizontal-border"></div>

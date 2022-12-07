@@ -21,7 +21,7 @@ const Voyage1 = () => {
 
   return (
     <div className="page1">
-      <img className="logo" src={logo} />
+      <img className="logo" src={logo} alt="logo" />
       <div className="planet1">
         <h2>Dinner on Jupiter</h2>
         <div className="horizontal-border"></div>

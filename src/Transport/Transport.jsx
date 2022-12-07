@@ -17,7 +17,7 @@ const Transport = () => {
 
   return (
     <div>
-      <img className="logo" src={logo} />
+      <img className="logo" src={logo} alt="logo" />
       <div className="page-transport">
         <div className="content">
           <h5 className="title">
