@@ -21,7 +21,7 @@ const Transport = () => {
       <div className="page-transport">
         <div className="content">
           <h5 className="title">
-              <span>05</span> SPACE LAUNCH 101
+            <span>05</span> SPACE LAUNCH 101
           </h5>
           <div className="transport-navigation">
             <nav>
@@ -40,14 +40,14 @@ const Transport = () => {
                 ))}
               </ul>
             </nav>
-              <div className="text-container">
-                <div className="navigation-item-title">
-                  <h3>{technologyInfo.name}</h3>
-                </div>
-                <div className="navigation-item-description">
-                  <p className="body-text">{technologyInfo.description}</p>
-                </div>
+            <div className="text-container">
+              <div className="navigation-item-title">
+                <h3>{technologyInfo.name}</h3>
               </div>
+              <div className="navigation-item-description">
+                <p className="body-text">{technologyInfo.description}</p>
+              </div>
+            </div>
             <img
               className="technology-image"
               src={technologyInfo.images.portrait}
