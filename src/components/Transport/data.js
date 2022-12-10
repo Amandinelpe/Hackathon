@@ -1,7 +1,7 @@
-import cybermoto from "../assets/cybermoto.jpg";
-import cyclotron from "../assets/cyclotron-bike-futuriste.jpeg";
-import trottinette from "../assets/plume-allure-trottinette.jpg";
-import oceanco from "../assets/oceanco-yacht-concept-de-superyacht-pininfarina-design-1.png";
+import cybermoto from "../../assets/cybermoto.jpg";
+import cyclotron from "../../assets/cyclotron-bike-futuriste.jpeg";
+import trottinette from "../../assets/plume-allure-trottinette.jpg";
+import oceanco from "../../assets/oceanco-yacht-concept-de-superyacht-pininfarina-design-1.png";
 
 const data = {
   technologies: [

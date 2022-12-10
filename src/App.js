@@ -1,20 +1,26 @@
 import React from "react";
-import Home from "./Pages/Home";
-import Voyage1 from "./Pages/Voyage1";
-import Voyage2 from "./Pages/Voyage2";
-import Voyage3 from "./Pages/Voyage3";
-import Transport from "./Transport/Transport";
-import Voyage4 from "./Pages/Voyage4";
-import "./Styles/Settings.css";
+import Home from "./components/Home/Home";
+import Transport from "./components/Transport/Transport";
+import "./App.css";
+import data from "./utils/data.js";
+import ArticleVoyage from "./components/ArticleVoyage/ArticleVoyage";
 
 const App = () => {
   return (
     <>
       <Home />
-      <Voyage1 />
-      <Voyage2 />
-      <Voyage3 />
-      <Voyage4 />
+      {data.articlesVoyage.map((article, index) => {
+        return (
+          <ArticleVoyage
+            key={index}
+            title={article.title}
+            description={article.description}
+            activities={article.activities}
+            media={article.media}
+          />
+        );
+      })}
+
       <Transport />
     </>
   );

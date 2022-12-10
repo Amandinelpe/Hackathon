@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import "../Styles/Settings.css";
-import "../Styles/Transport.css";
+import "./Transport.css";
 import data from "./data.js";
-import logo from "../assets/Logo.png";
+import logo from "../../assets/Logo.png";
 
 const Transport = () => {
   const [selectedTechnology, setSelectedTechnology] = useState(
